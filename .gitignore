@@ -2,5 +2,10 @@
 __pycache__/
 *.pyc
 .env*
+!.env.example
+env/.env.*
+!env/.env.local
+!env/.env.test
+!env/.env.production
 .pytest_cache/
 .DS_Store
